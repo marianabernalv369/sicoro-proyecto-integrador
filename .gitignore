@@ -1,0 +1,22 @@
+# Compilación
+out/
+*.class
+
+# Archivos generados
+reportes/*.csv
+!reportes/.gitkeep
+data/auditoria.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables o secretos locales
+.env
+*.key
+*.pem

@@ -1,0 +1,4 @@
+id,fecha,area,responsable,tipo,descripcion,estatus,fecha_actualizacion
+REG-0001,2026-08-01,Taller Automotriz,Usuario Demo,Mantenimiento,Revisión preventiva de unidad de reparto,ABIERTO,2026-08-01T09:30:00
+REG-0002,2026-08-01,Operaciones,Usuario Demo,Incidencia,Información incompleta en reporte diario,EN_PROCESO,2026-08-01T11:15:00
+REG-0003,2026-08-02,Taller Automotriz,Usuario Consulta,Seguimiento,Validar cierre de orden de servicio,CERRADO,2026-08-02T16:20:00
