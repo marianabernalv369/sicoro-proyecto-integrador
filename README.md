@@ -1,6 +1,6 @@
 # SICORO - Sistema de Control de Información y Reportes Operativos
 
-Prototipo académico desarrollado para la fase inicial de un proyecto integrador de Tecmilenio. El objetivo es centralizar registros operativos que anteriormente se concentraban de forma manual y generar reportes automáticos por área y estatus.
+Prototipo desarrollado para la fase inicial de proyecto integrador de Tecmilenio. El objetivo es centralizar registros operativos que anteriormente se concentraban de forma manual y generar reportes automáticos por área y estatus.
 
 > **Privacidad:** el repositorio utiliza exclusivamente datos ficticios. No contiene información confidencial, nombres reales de colaboradores, datos personales, credenciales corporativas ni archivos internos de la organización.
 
@@ -8,7 +8,7 @@ Prototipo académico desarrollado para la fase inicial de un proyecto integrador
 
 Empresa comercial de alcance nacional, identificada de forma genérica por confidencialidad. Área usuaria: operación y seguimiento de mantenimiento/taller automotriz.
 
-La publicación del código y resultados requiere autorización por escrito de la organización y participación del área de Tecnologías de Información. En `docs/CARTA_AUTORIZACION.md` se incluye un formato para recabarla.
+La publicación del código y resultados requiere autorización por escrito de la organización y participación del área de Tecnologías de Información. En `docs/CARTA_AUTORIZACION.md
 
 ## Funcionalidades del prototipo
 
@@ -27,27 +27,6 @@ La publicación del código y resultados requiere autorización por escrito de l
 - Windows, macOS o Linux.
 - No requiere librerías externas ni conexión a internet.
 
-## Ejecución
-
-### Windows
-
-1. Abra la carpeta del proyecto.
-2. Ejecute `scripts\compilar_y_ejecutar.bat`.
-
-### macOS o Linux
-
-```bash
-./scripts/compilar.sh
-./scripts/ejecutar.sh
-```
-
-### Manual
-
-```bash
-mkdir out
-javac -encoding UTF-8 -source 11 -target 11 -d out $(find src/main/java -name "*.java")
-java -cp out mx.edu.tecmilenio.sicoro.Main
-```
 
 ## Usuarios de demostración
 
@@ -56,7 +35,6 @@ java -cp out mx.edu.tecmilenio.sicoro.Main
 | `admin` | `Admin123!` | ADMIN |
 | `consulta` | `Consulta123!` | CONSULTA |
 
-Estas credenciales son únicamente para el prototipo académico y no deben reutilizarse en un entorno real.
 
 ## Estructura
 
@@ -87,12 +65,4 @@ flowchart LR
 
 ## Estado del proyecto
 
-El prototipo cubre la fase de análisis de requerimientos y una prueba de concepto funcional. Para una implementación productiva se recomienda sustituir los archivos CSV por una base de datos administrada, integrar autenticación institucional, cifrado en tránsito, respaldos automáticos, monitoreo y pruebas de seguridad.
-
-## Publicación en GitHub
-
-Consulte `docs/GUIA_GIT_GITHUB.md`. Antes de hacer público el repositorio, verifique que la carta de autorización esté firmada y que el área de TI haya revisado el contenido.
-
-## Licencia
-
-MIT para fines académicos y de demostración, condicionada a que la organización haya autorizado la publicación de los elementos que le correspondan.
+El prototipo cubre la fase de análisis de requerimientos y una prueba de concepto funcional. 
