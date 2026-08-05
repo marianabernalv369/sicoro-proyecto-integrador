@@ -1,8 +1,8 @@
 # Formato de autorización para proyecto académico y publicación en GitHub
 
-**Lugar y fecha:** ___________________________________________
+**Lugar y fecha:** ___Culiacán Sinaloa 03/08/2026________________________________________
 
-Por medio de la presente, **[nombre de la organización]**, representada por **[nombre y puesto de quien autoriza]**, manifiesta que conoce el alcance del proyecto académico denominado **“Sistema de Control de Información y Reportes Operativos (SICORO)”**, desarrollado por **[nombre del estudiante]** para Tecmilenio.
+Por medio de la presente, Porfirio Padilla Lopez, manifiesta que conoce el alcance del proyecto académico denominado **“Sistema de Control de Información y Reportes Operativos SICORO”**, desarrollado por **Mariana Bernal** para Tecmilenio.
 
 La organización autoriza:
 
@@ -13,12 +13,7 @@ La organización autoriza:
 
 La autorización se limita al prototipo académico y no implica aprobación para conectarlo a sistemas productivos. El área de Tecnologías de Información podrá revisar el repositorio antes de su publicación y solicitar el retiro de cualquier elemento que represente un riesgo.
 
-**Nombre y puesto de quien autoriza:** ______________________________
+**Nombre y puesto de quien autoriza:** ___Porfirio Padilla Lopez - Gerente y TI___________________________
 
-**Firma:** ______________________________
 
-**Representante del área de TI:** ______________________________
-
-**Firma del área de TI:** ______________________________
-
-**Nombre y firma del estudiante:** ______________________________
+**Nombre y firma del estudiante:** ___Mariana Bernal Vega___________________________
