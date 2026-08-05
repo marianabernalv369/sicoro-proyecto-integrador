@@ -8,9 +8,4 @@ Para visualizar el historial:
 git log --oneline --decorate --graph --all
 ```
 
-Después de publicarlo, agregue aquí:
 
-- URL del repositorio: ______________________________
-- Fecha de publicación: ______________________________
-- Visibilidad inicial: Privado / Público
-- Revisión del área de TI: Sí / No
