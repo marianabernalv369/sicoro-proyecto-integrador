@@ -66,3 +66,5 @@ flowchart LR
 ## Estado del proyecto
 
 El prototipo cubre la fase de análisis de requerimientos y una prueba de concepto funcional. 
+
+
