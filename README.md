@@ -68,3 +68,19 @@ flowchart LR
 El prototipo cubre la fase de análisis de requerimientos y una prueba de concepto funcional. 
 
 
+
+## Administración del desarrollo
+
+Organicé el trabajo con las ramas principales `develop` y `master`. Para cada funcionalidad utilizo una rama independiente y posteriormente integro los cambios a `develop` mediante un pull request.
+
+También conecté el proyecto con Zube para administrar issues, prioridades, estimaciones y milestones. Las etapas definidas son `Beta` y `General Availability (GA)`.
+
+## Integración continua
+
+Configuré Maven, Travis CI y una prueba JUnit para validar la generación del reporte CSV. El comando de prueba es:
+
+```bash
+mvn clean test
+```
+
+El diagrama y la descripción de los componentes se encuentran en [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md).
