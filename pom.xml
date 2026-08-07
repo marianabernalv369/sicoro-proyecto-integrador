@@ -6,7 +6,7 @@
 
     <groupId>mx.edu.tecmilenio</groupId>
     <artifactId>sicoro</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>SICORO</name>
 
     <properties>
@@ -25,6 +25,7 @@
     </dependencies>
 
     <build>
+        <finalName>SICORO-1.0</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -32,6 +33,19 @@
                 <version>3.2.5</version>
                 <configuration>
                     <useModulePath>false</useModulePath>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>mx.edu.tecmilenio.sicoro.Main</mainClass>
+                        </manifest>
+                    </archive>
                 </configuration>
             </plugin>
         </plugins>
