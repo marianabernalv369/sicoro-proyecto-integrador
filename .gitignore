@@ -1,4 +1,5 @@
 # Compilación
+target/
 out/
 *.class
 
